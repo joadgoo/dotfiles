@@ -1,0 +1,117 @@
+{
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "ui_font_size": 16,
+  "vim_mode": false,
+  "features": {
+    "copilot": true
+  },
+  "show_copilot_suggestions": true,
+  "base_keymap": "VSCode",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 10000
+    }
+  },
+  "nightly": {
+    "enabled": true,
+    "channel": "stable"
+  },
+  "terminal": {
+    "dock": "bottom",
+    "font_family": "0xProto Nerd Font",
+    "working_directory": "current_project_directory",
+    "copy_on_select": true,
+  },
+  "project_panel": {
+    "button": true,
+    "dock": "right",
+    "git_status": true
+  },
+  "tabs": {
+    "file_icons": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_family": "0xProto Nerd Font",
+  "buffer_font_family": "0xProto Nerd Font",
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "VScode Dark Plus"
+  },
+  "preferred_line_length": 120,
+  "soft_wrap": "prefer_line",
+  "tab_size": 2,
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "endOfLine": "lf"
+  },
+  "use_autoclose": false,
+  "linter": "eslint",
+  "eslint": {
+    "enabled": true,
+    "autoFixOnSave": true,
+    "autoFixOnFormat": true,
+    "autoFixOnFormatDelay": 1500
+  },
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": false,
+        "source.removeUnusedImports": true,
+        "source.fixAll.eslint": true,
+        "source.fixAll.prettier": true
+      }
+    },
+    "HTML": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "linked_edits": false
+    },
+    "CSS": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "SCSS": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+  "format_on_save": "on",
+  "formatter": {
+    "code_actions": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": false,
+      "source.removeUnusedImports": true,
+      "source.fixAll.prettier": true
+    }
+  },
+  "git": {
+      "git_gutter": "tracked_files"
+    },
+  "hover_popover_enabled": true
+}
